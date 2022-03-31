@@ -1,2 +1,4 @@
 # front-end-01-smooth-scroll
 Construção de um site totalmente responsivo usando HTML, CSS e Javascript. Além disso, tem um efeito de rolagem suave que destaca o menu da barra de navegação com base na sua posição rolada.
+
+<img src="https://tm.ibxk.com.br/2020/04/03/03162201927056.jpg?ims=1120x420">
