@@ -16,7 +16,11 @@
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="#home" id="navbar__logo">COLOR</a>
+        <a href="#home" id="navbar__logo">
+          <div class="logo-image">
+            <img src="assets/img/ubuntu_logo.png" class="img-fluid">
+          </div>          
+        </a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span> <span class="bar"></span>
           <span class="bar"></span>
@@ -34,7 +38,7 @@
             >
           </li>
           <li class="navbar__btn">
-            <a href="#sign-up" class="button" id="signup">Sign Up</a>
+            <a href="#sign-up" class="button" id="signup">Cadastro</a>
           </li>
         </ul>
       </div>
@@ -43,9 +47,9 @@
     <!-- Hero Section -->
     <div class="hero" id="home">
       <div class="hero__container">
-        <h1 class="hero__heading">Escolha suas <span>cores</span></h1>
-        <p class="hero__description">Possibilidades Ilimitadas</p>
-        <button class="main__btn"><a href="#">Explore</a></button>
+        <h1 class="hero__heading">Use <span>Ubuntu</span></h1>
+        <p class="hero__description">Sistema Operacional Ilimitado</p>
+        <button class="main__btn"><a href="https://ubuntu.com/download" target="_blank">Baixe Aqui</a></button>
       </div>
     </div>
 
@@ -53,40 +57,56 @@
     <div class="main" id="about">
       <div class="main__container">
         <div class="main__img--container">
-          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+          <div class="main__img--card"><img src="assets/icon/linux-brands.svg" class="linux_logo"></div>
         </div>
         <div class="main__content">
-          <h1>O que nós fazemos?</h1>
-          <h2>Ajuamos as empresas a escalarem</h2>
-          <p>Agende uma chamada para saber mais sobre nossos serviços</p>
-          <button class="main__btn"><a href="#">Agende uma Chamada</a></button>
+          <h1>Vale a Pena?</h1>
+          <h2>Migre seu SO do seu PC para Ubuntu</h2>
+          <p>O Ubuntu é uma das distribuições Linux mais conhecidas</p>
+          <button class="main__btn"><a href="https://ubuntu.com/blog" target="_blank">Saiba mais</a></button>
         </div>
       </div>
     </div>
 
     <!-- Services Section -->
     <div class="services" id="services">
-      <h1>Nossos Serviços</h1>
+      <h1>Categorias Ubuntu</h1>
       <div class="services__wrapper">
         <div class="services__card">
-          <h2>Formas de cores personalizadas</h2>
-          <p>Tecnologia em IA</p>
-          <div class="services__btn"><button>Iniciar</button></div>
+          <h2>Notícias sobre a Tecnologia</h2>
+          <p>Informações de Linux</p>
+          <div class="services__btn">
+            <a href="https://sempreupdate.com.br/category/noticias/" target="_blank" >
+              <button>Iniciar</button>
+            </a>
+          </div>
         </div>
         <div class="services__card">
           <h2>Você está pronto?</h2>
-          <p>Próximo Passo</p>
-          <div class="services__btn"><button>Iniciar</button></div>
+          <p>Tutoriais em Linux</p>
+          <div class="services__btn">
+            <a href="https://www.edivaldobrito.com.br/category/tutorial/" target="_blank" >
+              <button>  Iniciar </button>
+            </a>
+          </div> 
         </div>
         <div class="services__card">
-          <h2>Gradientes Completos</h2>
-          <p>100 Combinações</p>
-          <div class="services__btn"><button>Iniciar</button></div>
+          <h2>Especialista em Linux</h2>
+          <p>Seja um</p>
+          <div class="services__btn">
+            <a href="https://www.impacta.com.br/blog/por-que-se-especializar-no-sistema-operacional-linux/" target="_blank" >
+              <button>Iniciar</button>
+            </a>
+          </div>
         </div>
         <div class="services__card">
-          <h2>Escolhas Infinitas</h2>
-          <p>Mil cores</p>
-          <div class="services__btn"><button>Iniciar</button></div>
+          <h2>Comunidade Ubuntu</h2>
+          <p>Milhares de Tópicos</p>
+          <div class="services__btn">
+            <a href="https://ubuntuforum-br.org/" target="_blank">
+              <button>Iniciar</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -95,14 +115,14 @@
     <div class="main" id="sign-up">
       <div class="main__container">
         <div class="main__content">
-          <h1>Junte-se a nossa equipe</h1>
-          <h2>Inscreva-se hoje</h2>
-          <p>Veja o que nos diferencia</p>
-          <button class="main__btn"><a href="#">Inscreva-se</a></button>
+          <h1>Junte-se a comunidade Linux</h1>
+          <h2>Crie um disco bootável</h2>
+          <p>Veja como fazer</p>
+          <button class="main__btn"><a href="https://tecnoblog.net/responde/como-instalar-o-ubuntu-linux/">Como Instalar</a></button>
         </div>
         <div class="main__img--container">
           <div class="main__img--card" id="card-2">
-            <i class="fas fa-users"></i>
+            <img src="assets/icon/ubuntu-log.svg" class="linux_logo" id="ubuntu_logo">
           </div>
         </div>
       </div>
@@ -141,7 +161,7 @@
           <div class="footer__logo">
             <a href="/" id="footer__logo">COLOR</a>
           </div>
-          <p class="website__rights">© COLOR 2020. All rights reserved</p>
+          <p class="website__rights">© Ubuntu 2022. Todos os direitos reservados</p>
           <div class="social__icons">
             <a href="/" class="social__icon--link" target="_blank"
               ><i class="fab fa-facebook"></i
